@@ -17,22 +17,19 @@ We have published a set of workshop materials that you are free to use, should y
 - Advanced Features: 10 Minutes
 - Questions: 5 Minutes
 
-*****
 
-# Workshop Handouts
+## Activities
 
 
-### GitHub First Steps Activity
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQvW9ho2jYFicNzDQwqsIDyO5ojVUYtN8Vv4qd3j8BB0220RQidh6cXZO3e9blNQtqe_QgD-w6tvWBu/pub?embedded=true"></iframe>
+### **GitHub First Steps Activity**
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQvW9ho2jYFicNzDQwqsIDyO5ojVUYtN8Vv4qd3j8BB0220RQidh6cXZO3e9blNQtqe_QgD-w6tvWBu/pub?embedded=true" width ="850px" height="900px"></iframe>
 
-### Editing Your New Website in a Browser Activity
+### **Editing Your New Website in a Browser Activity**
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRh5IL6NmxxDa5-ZabfosKZMPne4lTLOLMOWcjEUNnsRBN2xRVDswTxAK9CqLgC6dekt8SeFt7zPVlc/pub?embedded=true"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRh5IL6NmxxDa5-ZabfosKZMPne4lTLOLMOWcjEUNnsRBN2xRVDswTxAK9CqLgC6dekt8SeFt7zPVlc/pub?embedded=true" width ="850px" height="900px"></iframe>
 
-*****
+### **Github Desktop First Steps Activity**
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS5Ol3xSan_e4Nm-2L1Ax1AU2TcjZz16LVZ2fyccWU6-fzgBYSxvBeYDYQbEvU9m7svBfVD2-qdhxjD/pub?embedded=true" width ="850px" height="900px"></iframe>
 
-### Github Desktop First Steps Activity
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vS5Ol3xSan_e4Nm-2L1Ax1AU2TcjZz16LVZ2fyccWU6-fzgBYSxvBeYDYQbEvU9m7svBfVD2-qdhxjD/pub?embedded=true"></iframe>
-
-### Editing Your New Website in a Browser
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vSndjBEKZlUHnwnEPi2CuW8GzHofi4IwyBiV6uJU_FzpdMyviHhdUIjStuMx4hQwFyyN25oPIRrRyS5/pub?embedded=true"></iframe>
+### **Editing Your New Website in a Browser**
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSndjBEKZlUHnwnEPi2CuW8GzHofi4IwyBiV6uJU_FzpdMyviHhdUIjStuMx4hQwFyyN25oPIRrRyS5/pub?embedded=true" width ="850px" height="900px"></iframe>

@@ -8,4 +8,8 @@ pages:
   - Additional Resources: resources.md
 - Workshop: workshop.md
 
-theme: journal
+theme:
+  name: 'material'
+  palette:
+    primary: 'grey'
+    accent: 'red'
