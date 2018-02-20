@@ -42,9 +42,7 @@ In order to edit your Jekyll Academic website locally you will need the followin
 # Important Files and Folders
 In order to better understand how everything in your site works, there are a few files and folders that you need to be aware of. These files control the main elements of your site, including your logo, bio photo and navigation. Full documentation of the directory structure can be found [here](https://jekyllrb.com/docs/structure/).
 
-* **\_config.yml** - This is your websites main configuration file. It allows you to set a site title, links to your social media accounts as well as a logo and bio photo image.
-
-* **accent.scss** - This file is used to set the colors of your site. The site is set up to accept two colors (highlight, lowlight). The main impact of the color choice  
+* **\_config.yml** - This is your websites main configuration file. It allows you to set a site title, links to your social media accounts, set the colors for your site, and set your logo and bio photo image.
 
 * **\_posts** - This folder holds all of the posts and presentations for your website. There is one sample post file and one sample presentation file located in this directory by default. The easiest way to create a new post or presentation is to simply copy either the post or presentation file and edit the contents.
 

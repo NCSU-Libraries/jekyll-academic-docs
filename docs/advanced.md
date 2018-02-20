@@ -35,7 +35,6 @@ We have provided a rudimentary file tree to help you navigate the basic file str
       ├── index.md
       ├── resume.md
       ├── _config.yml
-      ├── accent.scss
       |
       |
       ├── _posts
