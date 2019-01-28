@@ -22,24 +22,68 @@ Jekyll is an incredibly powerful tool. It also has a ton of great documentation 
 
 * **Jekyll Build** - If you wish to host your website somewhere other than GitHub Pages it will require that you create a site folder containing valid HTML and CSS files. You can do this by running `jekyll build` from the root folder of your project directory. That will result in the creation of a \_site folder. That folder can then be uploaded to the webhost of your choosing.
 
+*****
+# Site Structure
+We have provided a rudimentary file tree to help you navigate the basic file structure of your site. It is broken down into three risk levels (low, medium, high).
 
-## Adding Navigation Items
-You may want to add additional navigation items that point to different types of content or individual pages. This can be accomplished by adding a new navigation item. In order to add a new navigation item you will:
+* **Low risk** files are ones that you will need to edit in order to update the basic text on your site, but editing them will not cause any damage to site functionality.
+* **Medium risk** files contain HTML layout files and CSS files. You may find a need to edit these files to update the look and layout of your site. However, this is considered a more advanced task, breaking these files could cause your site layout to break.
+* **High risk** files are the files used by Jekyll to provide basic functionality to the site, it is unlikely that you will need to edit these files, and doing so could cause your site to stop functioning.
+```
+      ---------------------------------------------------
+      Low Risk:
+      ├── index.md
+      ├── resume.md
+      ├── _config.yml
+      |
+      |
+      ├── _posts
+      │   ├── 2016-07-22-example-presentation.md
+      │   └── 2016-07-23-example-post.md
+      |
+      |
+      ├── images
+      │   ├── bio-photo.jpg
+      │   └── logo.png
+      ├── _data
+      │   └────── navigation.yml
+      ---------------------------------------------------
+      Medium Risk:
+      ├── _sass
+      │       
+      ├── _includes
+      │   ├── _author-bio.html
+      │   ├── _browser-upgrade.html
+      │   ├── _cvhead.html
+      │   ├── _disqus_comments.html
+      │   ├── _feed-footer.html
+      │   ├── _footer.html
+      │   ├── _head.html
+      │   ├── _navigation.html
+      │   ├── _open-graph.html
+      │   ├── _scripts.html
+      │   ├── _social-share.html
+      │   └── _toc.html
+      ├── _layouts
+      │   ├── home.html
+      │   ├── page.html
+      │   ├── post-index.html
+      │   ├── post.html
+      │   ├── presentation-post-index.html
+      │   ├── resume.html
+      │   └── slide.html
+      ├── assets 
+      │ 
+      ---------------------------------------------------
+      High Risk:
+      ├── favicon.png
+      ├── presentations.md
+      ├── blog.md
+      ├── 404.md
+      ├── Gemfile
+      ├── Gemfile.lock
+      ├── Gruntfile.js
+      ├── LICENSE
+      ├── README.md
 
-1) Copy the folder of an existing navigation item (e.g resume) and paste it into the root directory of your project. Rename this folder with the name of the new navigation item.
-
-2) Navigate to \_data/navigation.yml and add a new navigation item by copying the layout of an existing navigation item.
-
-3) Take a look at some of the existing index.md files for other navigation items. Take note of the 'layout' element declared in the frontmatter. This will help you determine which layout is appropriate for your newly created page (e.g. Page or Resume)
-
-
-## Understanding Layouts
-One of the fundamental elements of Jekyll is the ability to utilize different layouts for different types of pages. The layouts are found in the \_layouts folder. These are .html files that drive the layout of any particular page. For example the 'slide' layout contains all of the necessary includes to power reveal.js slides. The current available layouts in Jekyll Academic are:
-
-* **home** - This layout is the layout for the homepage of your website. It automatically includes your 5 most recent blog posts in the space to the right of the social media section.
-* **page** -  This layout is used for any individual page, like the 'About Me' page. It is a blank page that can be formatted using Markdown.
-* **post-index** -  This layout is used on the blog archive. It lists every blog post chronologically separated by year.
-* **post** - This layout is used for blog posts. It includes a few more functionality elements than the 'page' layout.
-* **resume** -  This layout is used for the Resume page.
-* **presentation-post-index** - This layout is identical to the post-index layout except it is used on the presentations index to post all presentations you have on your site in one location, chronologically.
-* **slide** -  This layout is used for creating a reveal.js slide deck.
+```

@@ -1,131 +1,463 @@
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="./assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.6">
+    
+    
+      
+        <title>Jekyll Academic</title>
+      
+    
+    
+      <link rel="stylesheet" href="./assets/stylesheets/application.6525f7f6.css">
+      
+        <link rel="stylesheet" href="./assets/stylesheets/application-palette.792431c1.css">
+      
+    
+    
+      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    
+    
+    
+      <body data-md-color-primary="grey" data-md-color-accent="red">
+    
+  
+    <svg class="md-svg">
+      <defs>
         
         
-        
-        <link rel="shortcut icon" href="./img/favicon.ico">
-
-	<title>Jekyll Academic</title>
-
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./css/base.css" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-        
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- Main title -->
-            <a class="navbar-brand" href=".">Jekyll Academic</a>
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="about/" title="Jekyll Academic" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Jekyll Academic
+              </span>
+              <span class="md-header-nav__topic">
+                Quickstart
+              </span>
+            
+          
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
             
-            
-                <li class="active">
-                    <a href=".">Getting Started</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="advanced/">Advanced Features</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="resources/">Additional Resources</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="about/">About</a>
-                </li>
-            
-            
-            </ul>
-
-            <!-- Search, Navigation and Repo links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                <li class="disabled">
-                    <a rel="next" >
-                        <i class="fa fa-arrow-left"></i> Previous
-                    </a>
-                </li>
-                <li >
-                    <a rel="prev" href="advanced/">
-                        Next <i class="fa fa-arrow-right"></i>
-                    </a>
-                </li>
-                
-            </ul>
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
         </div>
+      </div>
     </div>
+  </div>
 </div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    Jekyll Academic
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
 
-        <div class="container">
-            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
+
+  <li class="md-nav__item">
+    <a href="about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
     
-        <li class="main active"><a href="#getting-started-with-jekyll-academic">Getting Started with Jekyll Academic</a></li>
-        
-            <li><a href="#required-software">Required Software</a></li>
-        
-            <li><a href="#quickstart-guide">Quickstart Guide</a></li>
-        
-            <li><a href="#important-files-and-folders">Important Files and Folders</a></li>
-        
-            <li><a href="#adding-blog-posts">Adding Blog posts</a></li>
-        
-            <li><a href="#adding-presentations">Adding Presentations</a></li>
-        
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Quickstart
+      </label>
+    
+    <a href="." title="Quickstart" class="md-nav__link md-nav__link--active">
+      Quickstart
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-software" title="Required Software" class="md-nav__link">
+    Required Software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quickstart" title="QuickStart" class="md-nav__link">
+    QuickStart
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-register-for-a-github-account" title="1) Register for a GitHub Account" class="md-nav__link">
+    1) Register for a GitHub Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-verify-email-address" title="2) Verify Email Address" class="md-nav__link">
+    2) Verify Email Address
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-setting-up-your-jekyll-academic-repository" title="3) Setting Up your Jekyll Academic Repository:" class="md-nav__link">
+    3) Setting Up your Jekyll Academic Repository:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-see-your-live-website" title="4) See your Live Website" class="md-nav__link">
+    4) See your Live Website
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-edit-site-files-via-github-browser-editor" title="5) Edit Site Files via GitHub Browser Editor" class="md-nav__link">
+    5) Edit Site Files via GitHub Browser Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-commit-changes-to-github" title="6) Commit Changes to GitHub*" class="md-nav__link">
+    6) Commit Changes to GitHub*
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+      
+      
     </ul>
-</div></div>
-            <div class="col-md-9" role="main">
+  
+</nav>
+    
+  </li>
 
-<h1 id="getting-started-with-jekyll-academic">Getting Started with Jekyll Academic</h1>
-<h2 id="required-software">Required Software</h2>
-<p>In order to edit your Jekyll Academic website you will need the following pieces of software:</p>
-<p>1) A text editor. Any text editor will do, our favorite is <a href="https://atom.io/">Atom</a></p>
-<p>2) <a href="https://desktop.github.com/">GitHub Desktop</a>. This is used to sync files between your local computer and the GitHub repository that is acting as your website host.</p>
-<h2 id="quickstart-guide">Quickstart Guide</h2>
-<p>This quickstart guide is geared to getting you up and running quickly. Following the directions below will result in you having a Jekyll Academic website hosted on GitHub pages live on the web. Before you begin working through the quickstart guide you may want to familiarize yourself with the following technologies that will be used to create your Jekyll Academic website:</p>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="documentation/" title="Documentation" class="md-nav__link">
+      Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="advanced/" title="Advanced Features" class="md-nav__link">
+      Advanced Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="resources/" title="Additional Resources" class="md-nav__link">
+      Additional Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="workshop/" title="Workshop" class="md-nav__link">
+      Workshop
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-software" title="Required Software" class="md-nav__link">
+    Required Software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quickstart" title="QuickStart" class="md-nav__link">
+    QuickStart
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-register-for-a-github-account" title="1) Register for a GitHub Account" class="md-nav__link">
+    1) Register for a GitHub Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-verify-email-address" title="2) Verify Email Address" class="md-nav__link">
+    2) Verify Email Address
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-setting-up-your-jekyll-academic-repository" title="3) Setting Up your Jekyll Academic Repository:" class="md-nav__link">
+    3) Setting Up your Jekyll Academic Repository:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-see-your-live-website" title="4) See your Live Website" class="md-nav__link">
+    4) See your Live Website
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-edit-site-files-via-github-browser-editor" title="5) Edit Site Files via GitHub Browser Editor" class="md-nav__link">
+    5) Edit Site Files via GitHub Browser Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-commit-changes-to-github" title="6) Commit Changes to GitHub*" class="md-nav__link">
+    6) Commit Changes to GitHub*
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="jekyll-academic-quickstart">Jekyll Academic Quickstart</h1>
+<h3 id="required-software">Required Software</h3>
+<p>It is possible to get up and running with a Jekyll Academic website using only your web browser and a GitHub account. Full documentation for <strong>local installation and editing</strong> can be found on the <a href="./documentation/">Documentation </a> page.</p>
+<h3 id="quickstart">QuickStart</h3>
+<p>This QuickStart guide is geared to getting you up and running quickly, using only a web browser and GitHub account. Following the directions below will result in you having a Jekyll Academic website hosted on GitHub pages live on the web. Before you begin working through the QuickStart guide you may want to familiarize yourself with the following technologies that will be used to create your Jekyll Academic website:</p>
 <ul>
 <li><a href="https://jekyllrb.com/">Jekyll</a></li>
 <li><a href="https://daringfireball.net/projects/Markdown/">Markdown</a></li>
@@ -136,161 +468,138 @@
 <h4 id="1-register-for-a-github-account">1) Register for a GitHub Account</h4>
 <p><em>Skip this step if you have already setup your GitHub account</em></p>
 <ul>
-<li>In a web browser, navigate to GitHub.com</li>
-<li>Fill Out Username, Email Address and Password</li>
+<li>In a web browser, navigate to <a href="https://github.com/">GitHub.com</a></li>
+<li>Fill Out Username*, Email Address and Password</li>
 <li>Click Sign up for GitHub button</li>
 <li>Click the Finish Sign Up button</li>
+</ul>
+<p>*Make a note of the username that you create, as you will be required to use it in setting up your GitHub pages repository.</p>
+<h4 id="2-verify-email-address">2) Verify Email Address</h4>
+<ul>
 <li>Navigate to the email account you used to sign up</li>
 <li>Verify your email address by clicking on the “Verify email address” button in the email you received from GitHub</li>
 </ul>
-<h4 id="2-setting-up-your-jekyll-academic-repository">2) Setting Up your Jekyll Academic Repository:</h4>
+<h4 id="3-setting-up-your-jekyll-academic-repository">3) Setting Up your Jekyll Academic Repository:</h4>
 <ul>
-<li>After signing in to GitHub click on New Repository</li>
-<li>Give your repository the following name [username].github.io (username is the username of your account)</li>
+<li>From your main profile page in GitHub click on New Repository</li>
+<li>Give your repository the following name [username].github.io *</li>
 <li>Click on Create Repository</li>
-<li>Click on Import Code</li>
-<li>Paste the following URL in the “Your old repository’s clone URL - https://github.com/NCSU-Libraries/jekyll-academic</li>
+<li>Click on the <strong>Import Code</strong> button under the "...or import code from another repository" section</li>
+<li>Paste the following URL in the “Your old repository’s clone URL" section <code>https://github.com/NCSU-Libraries/jekyll-academic</code></li>
 <li>Click on Begin Import</li>
 <li>Once import is complete navigate to [username.github.io] in your web browser</li>
 </ul>
-<h4 id="3-connect-your-github-repository-to-github-desktop">3) Connect your GitHub Repository to GitHub Desktop</h4>
+<p>*Note: For for GitHub Pages site to work correctly, the repository name must exactly match the format of [username].github.io. For example if your GitHub username is student1234 your GitHub Pages repository must be named student1234.github.io</p>
+<h4 id="4-see-your-live-website">4) See your Live Website</h4>
 <ul>
-<li>Download GitHub Desktop from https://desktop.github.com/ (skip this step if you already have GitHub Desktop installed)</li>
-<li>Double-click on downloaded file to begin the installation</li>
-<li>While on the Welcome screen click on Continue</li>
-<li>Sign in using the username you created in step one of this activity</li>
-<li>Click Sign In</li>
-<li>Click Continue</li>
-<li>Click Continue one more time</li>
-<li>Click on the plus sign in the upper left-hand corner of the screen to add a repository to Github Desktop</li>
-<li>Click Clone</li>
-<li>Find the ‘[username].github.io’ repository you created earlier and click Clone Repository</li>
-<li>Select the location where you would like to save the repository (e.g. Documents)</li>
-<li>Once the clone is finished you can click on the name of the repository on the left-hand side of Github Desktop to see any uncommitted changes (there shouldn’t be any yet)</li>
+<li>Open your web browser and go to [username].github.io</li>
 </ul>
-<h4 id="4-update-website-95configyml-file-and-sync-changes">4) Update Website _config.yml File and Sync Changes</h4>
+<h4 id="5-edit-site-files-via-github-browser-editor">5) Edit Site Files via GitHub Browser Editor</h4>
 <ul>
-<li>See your live Website by opening your web browser and going to [username].github.io</li>
-<li>Open _config.yml using Atom</li>
-<li>Edit the following entries of the _config.yml file</li>
+<li>Open a second web browser tab that shows the files in your repository github.com/[username]/[username].github.io</li>
+<li>Edit the main settings file for your website to add your name, and to link your accounts</li>
+<li>Click on the  _config.yml file in your repository to see the contents of that file</li>
+<li>Click on the ‘Edit This File’ button</li>
+<li>Edit the following entries of the _config.yml file<ul>
 <li>Title</li>
 <li>Name</li>
 <li>Bio</li>
-<li>Email</li>
+<li>Email (enter your full email address)</li>
+</ul>
+</li>
+<li>Edit the following entries to provide links to social media platforms by replacing <code>#username</code> with your actual username on that platform.<ul>
 <li>Twitter</li>
 <li>Facebook</li>
 <li>GitHub</li>
-<li>Save the _config.yml file</li>
-<li>Commit Changes to GitHub Repo</li>
-<li>Open GitHub Desktop</li>
-<li>Click to see Uncommitted Changes (at the top center portion of the screen)</li>
-<li>Add commit message to the summary field that says what changes you made</li>
-<li>Click Commit to Master</li>
-<li>Click Sync</li>
-<li>Refresh the browser window with your website and note the changes</li>
+<li>... etc.</li>
 </ul>
-<h2 id="important-files-and-folders">Important Files and Folders</h2>
-<p>In order to better understand how everything in your site works, there are a few files and folders that you need to be aware of. These files control the main elements of your site, including your logo, bio photo and navigation. Full documentation of the directory structure can be found <a href="https://jekyllrb.com/docs/structure/">here</a>. </p>
+</li>
+</ul>
+<h4 id="6-commit-changes-to-github">6) Commit Changes to GitHub*</h4>
 <ul>
-<li>
-<p><strong>_config.yml</strong> - This is your websites main configuration file. It allows you to set a site title, links to your social media accounts as well as a logo and bio photo image.</p>
-</li>
-<li>
-<p><strong>accent.scss</strong> - This file is used to set the colors of your site. The site is set up to accept two colors (highlight, lowlight). The main impact of the color choice  </p>
-</li>
-<li>
-<p><strong>_posts</strong> - This folder holds all of the posts for your website. It includes both blog posts as well as presentation posts. There are two sample posts in this directory to get your started. One for a blog post and one for a presentation post.</p>
-</li>
-<li>
-<p><strong>images/bio-photo.jpg</strong> - This is the photo that appears on the home page of the website. The recommended image size is 200px x 200px.</p>
-</li>
-<li>
-<p><strong>images/logo.png</strong> - If you wish to use a logo for your site, include logo.png in the images folder. You will also need to add logo.png under the 'Logo:' section of the _config.yml file.</p>
-</li>
-<li>
-<p><strong>_data/navigation.yml</strong> -This is the file that allows you to manage your navigation elements. By default all available navigation items are shown. If you wish to hide any items, simply delete them from this file.</p>
-</li>
+<li>After making changes to the file, make a note under the ‘Commit Changes’ section documenting the changes that you made (e.g. Updated social media usernames)</li>
+<li>Click ‘Commit changes’</li>
+<li>Refresh the browser tab that contains your live website ([username].github.io) and confirm that changes were made to your site</li>
 </ul>
-<h2 id="adding-blog-posts">Adding Blog posts</h2>
-<p>To add a new blog post to your site you simply create a new Markdown file. Jekyll requires that you follow the yyyy-mm-dd-title.md naming convention. Once you have the blank Markdown file you will need to add the header information so that Jekyll knows it is a blog file. Add the following to the top of your Markdown file:
-      ---
-      layout: post
-      title: Add Your Title Here
-      excerpt: "Add an excerpt here, the excerpt will appear underneath the blog title"
-      modified: 2016-01-13 20:41:38
-      tags: [intro, beginner, jekyll, tutorial]
-      comments: true
-      category: blog
-      ---
-      # Start your content here
-The important thing to note is that you need to make sure that the category is set to 'blog'. This ensures that this post will appear on the blog page. You can then add your blog content using Markdown as your markup language for the rest of the file.</p>
-<h2 id="adding-presentations">Adding Presentations</h2>
-<p>In Jekyll Academic presentations are actually set up as posts, just with a few different settings in the header. This means that your presentation files live in the same _posts folder as your blog posts. The only differences between presentations and posts is the layout and category section in the header.</p>
-<h4 id="adding-revealjs-presentations">Adding Reveal.js Presentations</h4>
-<p>To add a Reveal.js presentation to your site you first will need to create a new Markdown file in your _posts folder. At the top of your new file you will want to add the following header. Notice that you need to set the layout to 'slide' and the category to 'presentation'</p>
-<pre><code>  ---
-  layout: slide
-  title: Add Your Title Here
-  excerpt: "Add an excerpt here, the excerpt will appear underneath the blog title"
-  modified: 2016-01-13 20:41:38
-  tags: [intro, beginner, jekyll, tutorial]
-  comments: true
-  category: presentation
-  ---
-  &lt;section data-markdown&gt;
-  # Add reveal.js slide content here, following the reveal.js format
-  &lt;/section&gt;
-</code></pre>
-<h4 id="linking-to-external-presentations">Linking to External Presentations</h4>
-<p>To add a presentation post that appears on the presentation page, but is not a reveal.js slide deck you follow similar instructions as above. You will create a new Markdown file in your _posts folder and add the following header to it. Notice that you keep 'post' as the layout and 'presentation' as the category. This will create a blog post style post where you can link to external presentations.</p>
-<pre><code>  ---
-  layout: post
-  title: Add Your Title Here
-  excerpt: "Add an excerpt here, the excerpt will appear underneath the blog title"
-  modified: 2016-01-13 20:41:38
-  tags: [intro, beginner, jekyll, tutorial]
-  comments: true
-  category: presentation
-  ---
-</code></pre></div>
+<h2 id="next-steps">Next Steps</h2>
+<p>After following the steps above you now have a fully functioning website that others can view online. You can continue to edit other files on the site in the browser following similar steps as above (click into file, edit and commit).</p>
+<p>Following the instructions on the <a href="./documentation/">Documentation</a> will allow you to set up your computer to edit your files locally. It also offers a full explanation of the site structure, providing detailed instructions for fully customizing your new website.</p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
-        </footer>
-
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="about/" title="About" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
-        </div>
-    </body>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                About
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="documentation/" title="Documentation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Documentation
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="./assets/javascripts/application.cae2244d.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:"."}})</script>
+      
+    
+    
+      
+    
+  </body>
 </html>
