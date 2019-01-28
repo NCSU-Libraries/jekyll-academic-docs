@@ -8,8 +8,4 @@ pages:
   - Additional Resources: resources.md
 - Workshop: workshop.md
 
-theme:
-  name: 'material'
-  palette:
-    primary: 'grey'
-    accent: 'red'
+theme: mkdocs
