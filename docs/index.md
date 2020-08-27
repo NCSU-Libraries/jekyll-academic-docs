@@ -1,7 +1,7 @@
 # Jekyll Academic Quickstart
 
 ### Required Software
-It is possible to get up and running with a Jekyll Academic website using only your web browser and a GitHub account. Full documentation for **local installation and editing** can be found on the [Documentation ](/documentation/) page.
+It is possible to get up and running with a Jekyll Academic website using only your web browser and a GitHub account. Full documentation for **local installation and editing** can be found on the [Documentation ](documentation/) page.
 
 ### QuickStart
 This QuickStart guide is geared to getting you up and running quickly, using only a web browser and GitHub account. Following the directions below will result in you having a Jekyll Academic website hosted on GitHub pages live on the web. Before you begin working through the QuickStart guide you may want to familiarize yourself with the following technologies that will be used to create your Jekyll Academic website:
@@ -65,4 +65,4 @@ _Skip this step if you have already setup your GitHub account_
 ## Next Steps
 After following the steps above you now have a fully functioning website that others can view online. You can continue to edit other files on the site in the browser following similar steps as above (click into file, edit and commit).
 
-Following the instructions on the [Documentation](/documentation/) will allow you to set up your computer to edit your files locally. It also offers a full explanation of the site structure, providing detailed instructions for fully customizing your new website.
+Following the instructions on the [Documentation](documentation/) will allow you to set up your computer to edit your files locally. It also offers a full explanation of the site structure, providing detailed instructions for fully customizing your new website.
